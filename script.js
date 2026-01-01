@@ -1,3 +1,8 @@
+//Great code comes from experience. Experience comes from not-so-great code.
+
+
+
+
 // Example of what is clean code with same functionality
 
 const x = function(z) {
@@ -71,5 +76,13 @@ setTimeout(stopTimer, ONE_HOUR);
 
 // variable declared with descriptive name and there is no need to guess or calculate "magical" number
 
+// semicolons are automatically added by interpreter, if they are omitte. Better to add, even if its not required
 
+
+
+// dont use comments as a tracker for updates - use git. Old piece of code should be deleted and not commented out 
+// because it creates a bloat which doesnt belong there.
+
+
+//Great code comes from experience. Experience comes from not-so-great code.
 
