@@ -57,3 +57,19 @@ let numberOfArrays = 10;
 
 function createFolder() {};
 function findSuitableName(){};
+
+
+// - use searchable and immediately understanble names:
+
+setTimeout(stopTimer, 3600000); // whats that magical 3600000?! 
+
+//or 
+
+const ONE_HOUR = 3600000; // "all CAPS" used in cases where variable is "truly" constant and won't 
+// ever change, as per case above value of is universal and cant change - its truly constant
+setTimeout(stopTimer, ONE_HOUR);
+
+// variable declared with descriptive name and there is no need to guess or calculate "magical" number
+
+
+
